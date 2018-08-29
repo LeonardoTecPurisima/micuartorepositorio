@@ -1,0 +1,65 @@
+.div{
+    width: 20em;
+    height: 20em;
+    background: blue;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 2em;
+    top: 20px;
+}
+
+.uno{
+    width: 20%;
+    height: 30%;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+}
+
+.dos{
+    position: relative;
+    top: 13%;
+    width: 30%;
+    height: 30%;
+    left: 40px;
+    background: red;
+}
+
+.tres{
+    position:  absolute;
+    width: 30%;
+    height: 30%;
+    background: green;
+    left: 60%;
+    top: 20%;
+}
+
+.cuatro{
+    width: 30%;
+    height: 30%;
+    background: pink;
+    position: absolute;
+    bottom: 0;
+}
+
+.caja{
+    border: 1px solid #999;
+    padding: 1em;
+    margin: 1%;
+    width: 31.3%;
+    float: left;
+    text-align: justify;
+    vertical-align: top;
+    box-sizing: border-box;/*para que no rompa todo el layout*/
+}
+
+.brenda{
+    background: #999;
+}
+
+.imagen{
+    width: 100%;
+}
+
